@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.ranatehseen.staronlinestore'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.ranatehseen.staronlinestore'
+        minSdk 23
+        targetSdk 35
+        versionCode 20
+        versionName '2.0'
+    }
+}
